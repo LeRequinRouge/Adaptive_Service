@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#808080">
+    android:background="#cac92e">
 
     <TextView
         android:layout_width="395dp"
@@ -21,6 +21,19 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/review_orders"
+        android:layout_width="234dp"
+        android:layout_height="138dp"
+        android:background="#cd5e8f"
+        android:text="Orders"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="326dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
