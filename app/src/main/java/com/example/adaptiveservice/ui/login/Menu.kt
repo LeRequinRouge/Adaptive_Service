@@ -4,18 +4,18 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.adaptiveservice.R
-import kotlinx.android.synthetic.main.customer_activity.*
+import kotlinx.android.synthetic.main.menu_activity.*
 
-class Customer : AppCompatActivity() {
+class Menu : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.customer_activity)
+        setContentView(R.layout.menu_activity)
 
-
-        menu_button.setOnClickListener{
-            val menu = Intent(this, Menu::class.java)
-            startActivity(menu)
+        customer_back.setOnClickListener{
+            val backout = Intent(this, Customer::class.java)
+            startActivity(backout)
         }
+
     }
 }

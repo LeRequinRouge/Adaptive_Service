@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#cac92e">
 
     <TextView
@@ -21,5 +22,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="133dp" />
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="427dp"
+        android:layout_height="138dp"
+        android:background="#cd5e8f"
+        android:text="menu"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="326dp" />
 
 </LinearLayout>
