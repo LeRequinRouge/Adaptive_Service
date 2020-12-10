@@ -22,4 +22,4 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="133dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
