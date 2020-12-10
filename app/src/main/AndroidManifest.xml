@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.login.Employee" />
+        <activity android:name=".ui.login.Customer" />
     </application>
 
 </manifest>
