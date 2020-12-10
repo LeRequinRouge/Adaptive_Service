@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#cac92e">
 
     <TextView
-        android:layout_width="395dp"
-        android:layout_height="153dp"
+        android:layout_width="430dp"
+        android:layout_height="156dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="#651FFF"
@@ -25,7 +25,7 @@
 
     <Button
         android:id="@+id/review_orders"
-        android:layout_width="234dp"
+        android:layout_width="427dp"
         android:layout_height="138dp"
         android:background="#cd5e8f"
         android:text="Orders"
@@ -36,4 +36,4 @@
         tools:layout_editor_absoluteY="326dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
