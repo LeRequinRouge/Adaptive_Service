@@ -9,10 +9,50 @@
     <Button
         android:id="@+id/customer_back"
         android:layout_width="434dp"
-        android:layout_height="200dp"
+        android:layout_height="75dp"
         android:background="#651FFF"
         android:text="Menu"
         android:textColor="#64DD17"
         android:textSize="50dp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Double bacon-deluxe Burger $10"
+        android:textSize="35sp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Amsterdam Special $8"
+        android:textSize="35sp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=" Side o' Fries $3"
+        android:textSize="35sp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=" Side of soup $3"
+        android:textSize="35sp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=" Grand Cru $12"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/order_now"
+        android:layout_width="434dp"
+        android:layout_height="100dp"
+        android:text="Order Now"
+        android:textColor="#64DD17"
+        android:textSize="60sp"
+        android:background="#cd5e8f"
+        />
 
 </LinearLayout>

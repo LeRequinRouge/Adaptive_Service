@@ -5,21 +5,17 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.adaptiveservice.R
 import kotlinx.android.synthetic.main.menu_activity.*
+import kotlinx.android.synthetic.main.ordered_activity.*
 
-class Menu : AppCompatActivity() {
+class Ordered : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.menu_activity)
+        setContentView(R.layout.ordered_activity)
 
-        customer_back.setOnClickListener{
+        back_to_customer.setOnClickListener{
             val backout = Intent(this, Customer::class.java)
             startActivity(backout)
-        }
-
-        order_now.setOnClickListener{
-            val ordered = Intent(this, Ordered::class.java)
-            startActivity(ordered)
         }
 
     }

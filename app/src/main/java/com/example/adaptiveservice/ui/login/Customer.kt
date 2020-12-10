@@ -17,5 +17,10 @@ class Customer : AppCompatActivity() {
             val menu = Intent(this, Menu::class.java)
             startActivity(menu)
         }
+
+        back_to_login.setOnClickListener {
+            val backout = Intent(this, LoginActivity::class.java)
+            startActivity(backout)
+        }
     }
 }

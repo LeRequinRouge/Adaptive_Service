@@ -7,7 +7,8 @@
     android:orientation="vertical"
     android:background="#cac92e">
 
-    <TextView
+    <Button
+        android:id="@+id/back_to_login"
         android:layout_width="430dp"
         android:layout_height="156dp"
         android:layout_marginEnd="8dp"

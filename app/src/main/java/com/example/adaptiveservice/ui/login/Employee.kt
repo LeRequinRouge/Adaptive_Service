@@ -12,10 +12,15 @@ class Employee : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.employee_activity)
 
-    review_orders.setOnClickListener{
-        val orders = Intent(this, Orders::class.java)
-        startActivity(orders)
-    }
+        review_orders.setOnClickListener {
+            val orders = Intent(this, Orders::class.java)
+            startActivity(orders)
+        }
 
+        back_to_login.setOnClickListener {
+            val backout = Intent(this, LoginActivity::class.java)
+            startActivity(backout)
+
+        }
     }
 }

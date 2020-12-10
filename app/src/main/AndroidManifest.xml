@@ -22,6 +22,7 @@
         <activity android:name=".ui.login.Customer" />
         <activity android:name=".ui.login.Orders" />
         <activity android:name=".ui.login.Menu" />
+        <activity android:name=".ui.login.Ordered" />
     </application>
 
 </manifest>
