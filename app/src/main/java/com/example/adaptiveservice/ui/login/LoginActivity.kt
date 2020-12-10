@@ -1,6 +1,7 @@
 package com.example.adaptiveservice.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -16,6 +17,7 @@ import android.widget.ProgressBar
 import android.widget.Toast
 
 import com.example.adaptiveservice.R
+import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
@@ -106,6 +108,18 @@ class LoginActivity : AppCompatActivity() {
                 "$welcome $displayName",
                 Toast.LENGTH_LONG
         ).show()
+
+        if (username.text.toString() == "employee")
+        {
+            val employee = Intent(this, Employee::class.java)
+            startActivity(employee)
+        }
+
+        else if (username.text.toString() == "customer")
+        {
+            val customer = Intent(this, Customer::class.java)
+            startActivity(customer)
+        }
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {
